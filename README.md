@@ -1,6 +1,5 @@
 # <img src="Image/logo.png" alt="Logo" width="28"/> Fake News Detection using LSTM
 ![Python](https://img.shields.io/badge/Python-3.x-blue) 
-![Sentiment Analysis](https://img.shields.io/badge/Sentiment--Analysis-NLP-green) 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Background
