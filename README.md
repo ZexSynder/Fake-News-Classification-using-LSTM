@@ -21,28 +21,28 @@ The dataset contains **23478 instances (52.5%) labeled as "Fake News"** and **21
 
 ### 2. What the most type of news is real or fake?
 
-![image](Image/image4.png)
+![image](Image/4.png)
 
 - The category with the **most fake news** is **News** with **9,050** fake articles, followed by **politics** with **6,838** fake articles.
 - The category with the **most real news** is **politicsNews** with **11,220** real articles, followed by **worldnews** with **9,991** real articles.
 
 ### 3. What words frequently appear in the reviews?
 
-![image](Image/image5.png)
+![image](Image/5.png)
 
 "trump", "said", "state", "presid" (likely stemming from "president"), and "would."
 These words suggest a strong focus on political events and statements, particularly involving the U.S. presidency.
 
 ### 4. What words often appear in fake news?
 
-![image](Image/image6.png)
+![image](Image/6.png)
 
 "trump," "ame" (possibly stemming from "America"), "presid" (likely "president"), "like," "clinton," and "peopl."
 These words indicate a significant focus on political figures and events, often involving controversial or polarizing topics, which are common in fake news narratives.
 
 ### 5. What words often appear in real news?
 
-![image](Image/image7.png)
+![image](Image/7.png)
 
 "reuter" (likely referring to Reuters, a reputable news agency), "republican," "presid" (likely "president"), "trump," "state," and "said."
 These words reflect a focus on official reports, political figures, and statements, which are characteristic of real news articles based on credible sources and factual reporting.
@@ -52,19 +52,19 @@ I did **Label-Encoder** & **keras-tokenizer** method on feature extraction.
 
 ## Modeling
 ### Model Architecture
-![image](Image/image8.png)
+![image](Image/8.png)
 
 ## Evaluation
 ### Model Accuracy over epochs
-![image](Image/image9.png)
+![image](Image/9.png)
 - The image indicates that the model learns patterns effectively and does not overfit.
 ### Model Loss over epochs
-![image](Image/image10.png)
+![image](Image/10.png)
 - The image indicates that the model learns patterns effectively and does not overfit.
 ### Confusion Matrix
-![image](Image/image12.png)
+![image](Image/12.png)
 ### Metrics Evaluation
-![image](Image/image11.png)
+![image](Image/11.png)
 ### The performance of the LSTM-based model can be summarized as follows:
 - Precision: The model achieved a precision of 0.99 for both fake news (class 0) and real news (class 1). This means that the model is highly accurate in identifying true positives, with very few false positives.
 - Recall: The recall score is also 0.99 for both fake and real news, indicating that the model is effectively identifying almost all of the fake and real news instances, with very few false negatives.
